@@ -64,4 +64,4 @@ namespace RNStorage {
     }
 }
 
-export default Storage;
+export default RNStorage;
