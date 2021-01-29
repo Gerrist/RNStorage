@@ -36,6 +36,10 @@ export function watch(conf) {
         }
     };
 
+    if(conf.onInit){
+        onStorage();
+    }
+
     let value = window.localStorage.getItem(conf.key);
 
     setInterval(() => {
