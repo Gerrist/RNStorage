@@ -1,4 +1,4 @@
-namespace Storage {
+namespace RNStorage {
     export function set(key: string, data: Object): Promise<void> {
         return new Promise<void>((resolve, reject) => {
             window.localStorage.setItem(key, JSON.stringify(data));
