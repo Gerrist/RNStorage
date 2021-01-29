@@ -1,0 +1,28 @@
+{
+  "name": "RNStorage",
+  "version": "1.0.0",
+  "description": "React Native TypeScript module to set up watchable storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerrist/Storage.git"
+  },
+  "keywords": [
+    "storage",
+    "typescript",
+    "react",
+    "native"
+  ],
+  "dependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "author": "Gerrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerrist/Storage/issues"
+  },
+  "homepage": "https://github.com/Gerrist/Storage#readme"
+}
