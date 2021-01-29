@@ -2,9 +2,10 @@
   "name": "rnstorage",
   "version": "1.0.0",
   "description": "React Native TypeScript module to set up watchable storage",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel ./src/index.ts --out-file index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/Gerrist/Storage/issues"
   },
-  "homepage": "https://github.com/Gerrist/Storage#readme"
+  "homepage": "https://github.com/Gerrist/Storage#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
+  }
 }
