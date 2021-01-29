@@ -1,5 +1,5 @@
 {
-  "name": "RNStorage",
+  "name": "rnstorage",
   "version": "1.0.0",
   "description": "React Native TypeScript module to set up watchable storage",
   "main": "index.js",
